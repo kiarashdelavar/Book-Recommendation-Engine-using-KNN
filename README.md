@@ -29,4 +29,4 @@ If you graph the dataset (optional), you will notice that most books are not rat
 
 The first three cells import libraries you may need and the data to use. The final cell is for testing. Write all your code in between those cells.
 
-https://www.freecodecamp.org/learn/machine-learning-with-python/machine-learning-with-python-projects/book-recommendation-engine-using-knn
+
