@@ -10,11 +10,12 @@ Create a function named get_recommends that takes a book title (from the dataset
 
 This code:
 
-get_recommends("The Queen of the Damned (Vampire Chronicles (Paperback))")
+    get_recommends("The Queen of the Damned (Vampire Chronicles (Paperback))")
 should return:
 
 [
-  'The Queen of the Damned (Vampire Chronicles (Paperback))',
+  
+    'The Queen of the Damned (Vampire Chronicles (Paperback))',
   [ 
    
     ['Catch 22', 0.793983519077301], 
@@ -31,8 +32,7 @@ should return:
     
     ['The Vampire Lestat (Vampire Chronicles, Book II)', 0.5178412199020386]
   
-  ]
-]
+  
 
 Notice that the data returned from get_recommends() is a list. The first element in the list is the book title passed into the function. The second element in the list is a list of five more lists. Each of the five lists contains a recommended book and the distance from the recommended book to the book passed into the function.
 
