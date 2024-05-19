@@ -2,27 +2,27 @@
 
 This project implements a book recommendation system using the K-Nearest Neighbors (KNN) algorithm on the Book-Crossings dataset. The dataset comprises 1.1 million ratings (on a scale of 1-10) for 270,000 books by 90,000 users. The goal is to create a function that recommends books similar to a given book title.
 
-Dataset Description
+Dataset Description:
 
-The Book-Crossings dataset contains:
+# The Book-Crossings dataset contains:
 
     1- 1.1 million ratings
     2- 270,000 books
     3- 90,000 users
 
-Methodology:
+# Methodology:
   
     1- Data Import and Cleaning: Load the dataset and remove users with fewer than 200 ratings and books with fewer than 100 ratings to ensure statistical significance.
     2- Model Development: Use the NearestNeighbors class from sklearn.neighbors to build a KNN model that determines the "closeness" of books based on user ratings.
     3- Recommendation Function: Implement a function get_recommends that takes a book title as input and returns a list of 5 similar books along with their distances from the input book.
 
-Function: get_recommends
+# Function: get_recommends
 
 The get_recommends function takes a book title as an argument and returns recommendations in the following format:
 
     get_recommends("The Queen of the Damned (Vampire Chronicles (Paperback))")
 
-Output:
+# Output:
 
     [
         'The Queen of the Damned (Vampire Chronicles (Paperback))',
@@ -37,7 +37,7 @@ Output:
 
 The output is a list where the first element is the input book title, and the second element is a list of five lists. Each sublist contains a recommended book and the distance from the input book.
 
-Implementation:
+# Implementation:
 
     # Importing libraries
     import pandas as pd
@@ -64,7 +64,7 @@ Implementation:
 
 Place your data processing, model training, and recommendation logic between the provided cells to complete the implementation.
 
-Instructions:
+# Instructions:
 
     1- Clone the repository.
     2- Load the Book-Crossings dataset.
