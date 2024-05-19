@@ -45,14 +45,18 @@ Implementation:
     from scipy.sparse import csr_matrix
 
     # Load and clean data
+    
     # Add your data loading and cleaning code here
 
     # Develop the model
+    
     # Add your model training code here
 
     # Define the recommendation function
+    
     def get_recommends(book_title):
     # Add your recommendation code here
+    
     return
 
     # Test the function
