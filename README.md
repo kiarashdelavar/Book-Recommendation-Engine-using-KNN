@@ -6,15 +6,15 @@ Dataset Description
 
 The Book-Crossings dataset contains:
 
-    1.1 million ratings
-    270,000 books
-    90,000 users
+    1- 1.1 million ratings
+    2- 270,000 books
+    3- 90,000 users
 
 Methodology:
   
-    Data Import and Cleaning: Load the dataset and remove users with fewer than 200 ratings and books with fewer than 100 ratings to ensure statistical significance.
-    Model Development: Use the NearestNeighbors class from sklearn.neighbors to build a KNN model that determines the "closeness" of books based on user ratings.
-    Recommendation Function: Implement a function get_recommends that takes a book title as input and returns a list of 5 similar books along with their distances from the input book.
+    1- Data Import and Cleaning: Load the dataset and remove users with fewer than 200 ratings and books with fewer than 100 ratings to ensure statistical significance.
+    2- Model Development: Use the NearestNeighbors class from sklearn.neighbors to build a KNN model that determines the "closeness" of books based on user ratings.
+    3- Recommendation Function: Implement a function get_recommends that takes a book title as input and returns a list of 5 similar books along with their distances from the input book.
 
 Function: get_recommends
 
@@ -62,9 +62,9 @@ Place your data processing, model training, and recommendation logic between the
 
 Instructions:
 
-    Clone the repository.
-    Load the Book-Crossings dataset.
-    Clean the data by removing users with fewer than 200 ratings and books with fewer than 100 ratings.
-    Train the KNN model using NearestNeighbors.
-    Implement the get_recommends function.
-    Test the function with various book titles to verify the recommendations.
+    1- Clone the repository.
+    2- Load the Book-Crossings dataset.
+    3- Clean the data by removing users with fewer than 200 ratings and books with fewer than 100 ratings.
+    4- Train the KNN model using NearestNeighbors.
+    5- Implement the get_recommends function.
+    6- Test the function with various book titles to verify the recommendations.
